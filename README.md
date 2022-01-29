@@ -13,7 +13,7 @@ HSV segmentation and eggs localization was done on [this repo](https://github.co
 ![yes- (12)](https://user-images.githubusercontent.com/70200533/151665936-6164e480-a1ca-41ae-96e5-0b1eea68498d.jpeg)
 ![yes- (13)](https://user-images.githubusercontent.com/70200533/151665937-c6269b48-17f7-4572-9e19-d5fadd460726.jpeg)
 
-Since dataset only has 30 images of each class, data augmentation was conducted. The augmentation was done by rotating each image 360 degrees and extracting features every 5 degree. So each image will augmented to new 72 images with angle variation.
+Since the dataset only has 30 images of each class, data augmentation was conducted. The augmentation was done by rotating each image 360 degrees and extracting features every 5 degrees. So each image will be augmented to new 72 images with angle variation.
 
 Hyperparameters of each model were optimized using Gridsearch and cross-validation with hyperparameter settings and search space referring to a [paper](https://arxiv.org/abs/2007.15745).
 
