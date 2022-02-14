@@ -18,7 +18,8 @@ Since the dataset only has 30 images of each class, data augmentation was conduc
 Hyperparameters of each model were optimized using Gridsearch and cross-validation with hyperparameter settings and search space referring to a [paper](https://arxiv.org/abs/2007.15745).
 
 ## Limitations and future improvement:
-As the model was trained using the shape of an egg (which is oval) and random/cropped egg shape (not oval), there are often found overlapping eggs that were segmented as one object and detected as 'not egg' (since it's not oval). To overcome this, the overlapping object separation method could be used to further analyze and detect each egg that is overlapped.
+![image](https://user-images.githubusercontent.com/70200533/153872804-88d72d0e-cd6e-46fa-9fd4-8c9a624a5d8c.png)
+As the model was trained using the shape of an egg (which is oval) and random/cropped egg shape (not oval), there are often found overlapping eggs that were segmented as one object and detected as 'not egg' (since it's not oval-like in the image). To overcome this, the overlapping object separation method could be used to further analyze and detect each egg that is overlapped.
 
 ## Sample output:
 ![Output-13](https://user-images.githubusercontent.com/70200533/151666769-3c262580-3007-47bd-8caa-b22423613aec.jpeg)
