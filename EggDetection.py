@@ -17,7 +17,7 @@ object_img = cv2.imread(filename)
 root.destroy()
 print('[INFO]: Image Loaded.')
 
-model_filename = r'D:\Projects\projects\eggs-thesis\detection\eggdet_svc-gs.pkl'
+model_filename = r'[path to model directory]\eggdet_svc-gs.pkl'
 model = joblib.load(model_filename)
 print('[INFO]: Model Loaded.')
 
